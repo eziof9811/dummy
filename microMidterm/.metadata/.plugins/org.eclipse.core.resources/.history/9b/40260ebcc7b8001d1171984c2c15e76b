@@ -1,0 +1,14 @@
+package com.example.orderservices.service;
+
+import com.example.orderservices.entity.Order;
+
+import java.util.List;
+
+public interface OrderService {
+
+    Order getOrderById(long orderId);
+    List<Order> getAllOrder();
+    void addOrder(Order order);
+    void UpdateOrder(long orderId, Order order);
+    void DeleteOrder(long orderId);
+}

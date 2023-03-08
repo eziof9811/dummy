@@ -1,0 +1,5 @@
+package com.example.orderservices.repository;
+
+public interface OrderRepository {
+
+}

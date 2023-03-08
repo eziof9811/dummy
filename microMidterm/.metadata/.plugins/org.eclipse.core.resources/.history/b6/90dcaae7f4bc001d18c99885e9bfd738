@@ -1,0 +1,18 @@
+package com.example.jwt.controller;
+
+
+import com.example.jwt.entity.Role;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.PostMapping;
+
+
+@RestController
+public class RoleController {
+	
+	
+	@PostMapping({"/createNewRole"})
+	public Role createNewRole(Role role) {
+		
+	}
+
+}

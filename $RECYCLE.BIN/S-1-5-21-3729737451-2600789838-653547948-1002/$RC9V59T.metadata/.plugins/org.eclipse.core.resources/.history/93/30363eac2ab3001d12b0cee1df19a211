@@ -1,0 +1,5 @@
+package com.midproject.userservice.Controller;
+
+public class UserController {
+
+}

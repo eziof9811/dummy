@@ -1,0 +1,5 @@
+package com.example.orderservices.service;
+
+public class OrderServiceImpl {
+
+}
